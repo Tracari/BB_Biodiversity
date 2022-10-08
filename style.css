@@ -1,0 +1,13 @@
+.intro {
+    background-image: url('../background.jpeg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: #ffff
+};
+
+.jumbotron {
+    height: 80vh;
+    background-color: blue;
+    background-size: cover;
+}

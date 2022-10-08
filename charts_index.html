@@ -6,16 +6,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
-
+  <section id="header">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-progress"></i>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav max-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bacteria Sample </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Washing Frequency </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Sample Size</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <div class="intro">
+          <h1>Belly Button Biodiversity Dashboard</h1>
+          <p>Use the interactive charts below to explore the dataset</p>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -48,7 +74,9 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="style.css"></script>
   <script src="charts.js"></script>
+  
 
 </body>
 
